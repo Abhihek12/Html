@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    
+
     <title>Forms</title>
 </head>
+
 <body>
     <table>
 
         <form action="">
-          
-         
-            <tr><td><label for="user"> User name:</label> </td>
-            <td> <input type="text"name="user" 
-                id="user" placeholder="User name" required
-                minlength="10"
-                maxlength="15"></td>
-                </tr>
+
+
+            <tr>
+                <td><label for="user"> User name:</label> </td>
+                <td> <input type="text" name="user" id="user" placeholder="User name" required minlength="10"
+                        maxlength="15"></td>
+            </tr>
             <br>
-            
-            <tr><td><label for="user"> Password :</label></td>
-            <td><input type="text"name="pass" 
-                id="pass" placeholder="Password" required
-                minlength="10"
-                maxlength="15"></td>
-                </tr>
-            
 
-                <tr>
-                    <td><label for="logindt">Login Date/time</label></td>
-                    <td>
-                        <input type="date" name="logindt" id="logindt" required>
-                    </td>
-                </tr>
+            <tr>
+                <td><label for="pass1"> Password :</label></td>
+                <td><input type="password" name="pass" id="pass1" placeholder="Password" required minlength="10"
+                        maxlength="15"></td>
+            </tr>
 
-                <tr>  <td><input type="submit"></tr>
-           
-            
-                </form>
+
+            <tr>
+                <td><label for="logindt">Login Date/time</label></td>
+                <td>
+                    <input type="date" name="logindt" id="logindt" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Femail</td>
+            </tr>
+
+            <tr><td> Education : 
+                <br> <input type="checkbox" name=" checkbox1">10th <br> <input type="checkbox" name=" checkbox2">12th <br> <input type="checkbox" name=" checkbox3"> Graduated <br>  <input type="checkbox" name=" checkbox4"> Post graduattion  </td></tr>
+
+            <tr>
+                <td><input type="submit">
+            </tr>
+
+
+        </form>
 
     </table>
 
 </body>
+
 </html>
