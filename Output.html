@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+legend{
+    text-align: center;
+}
+    </style>
+    <title>Out Element</title>
+</head>
+<body>
+    
+    <form action="">
+
+<label for="inp">Enter Data :</label>
+<input type="text" name="inp" id="inp">
+
+
+
+<br><br>
+
+<label for="pass">Enter Password :</label>
+<input type="password" name="pass" id="pass">
+<br>
+<br>
+<input type="submit" value="submit">
+</form>
+<br><br><br>
+
+<form action="" id="frm1" method="get" oninput="out1.value=parseInt(num.value)
+* parseInt(num1.value)">
+<fieldset>
+
+<legend>Form</legend>
+
+Number1: <input type="number" name="num" id="num">
+<br>
+<br>
+Number2: <input type="number" name="num1" id="num1">
+
+<br><br><br><hr>
+Result : <output name="out1" for="num1 num" from="frm1"></output>
+<hr>
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
